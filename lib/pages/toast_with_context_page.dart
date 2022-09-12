@@ -48,17 +48,17 @@ class _ToastWithPageState extends State<ToastWithPage> {
                     height: 32,
                   ),
                   ElevatedButton(
-                    onPressed: showBottomToast,
+                    onPressed: showTopToast,
                     style: buttonStyle,
-                    child: const Text('Show Bottom Toast'),
+                    child: const Text('Show Top Toast'),
                   ),
                   const SizedBox(
                     height: 32,
                   ),
                   ElevatedButton(
-                    onPressed: showTopToast,
+                    onPressed: showBottomToast,
                     style: buttonStyle,
-                    child: const Text('Show Top Toast'),
+                    child: const Text('Show Bottom Toast'),
                   ),
                   const SizedBox(
                     height: 32,
